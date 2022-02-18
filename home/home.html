@@ -1,0 +1,76 @@
+<div class="qa-di-wizard-wrapper">
+  <div class="title">
+    PYETSORI - FORMULARI I DEKLARIMIT VJETOR DHE PAGESËS PËR TATIMIN NË TË
+    ARDHURAT PERSONALE PËR INDIVID
+  </div>
+
+  <div class="status">
+    <button class="btn btn-primary">
+      {{$ctrl.index+1}} / {{$ctrl.list.length}}
+    </button>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">{{$ctrl.model.title}}</h3>
+    </div>
+    <div class="panel-body">{{$ctrl.model.description}}</div>
+    <div class="confirm-choices">
+      <button type="button" class="btn btn-default active">PO</button>
+      <button type="button" class="btn btn-default active">JO</button>
+    </div>
+    <div class="answer-value">
+      <div class="yes-answer">
+        <span class="yes-label"
+          >Nëse PO – Vendos vlerën e të ardhurave në kutinë:</span
+        >
+        <input type="text" class="form-control" style="width: 30%" />
+      </div>
+      <div class="no-answer">Nëse JO – kalo në pyetjen e radhës.</div>
+    </div>
+    <div class="qa-panel-actions">
+      <button class="btn btn-primary" ng-click="$ctrl.previous()">
+        Kthehu
+      </button>
+      <button class="btn btn-primary" ng-click="$ctrl.next()">Vazhdo</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .qa-di-wizard-wrapper {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  .title {
+    display: flex;
+  }
+  .status {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .qa-panel-actions {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .answer-value {
+    padding: 10px;
+  }
+  .yes-answer {
+    display: flex;
+    align-items: center;
+  }
+  .yes-label {
+    width: 60%;
+  }
+  .confirm-choices {
+    padding: 10px 0 10px 40px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+  }
+</style>

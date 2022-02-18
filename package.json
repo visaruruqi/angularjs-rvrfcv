@@ -1,0 +1,11 @@
+{
+  "name": "angularjs-rvrfcv",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@uirouter/angularjs": "1.0.15",
+    "angular": "1.6.9",
+    "bootstrap": "3",
+    "jquery": "^3.6.0"
+  }
+}

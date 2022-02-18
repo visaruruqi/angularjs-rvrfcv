@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "A keni realizuar të ardhura nga Paga?",
+    "description": "Sqarim: Të ardhura bruto nga paga konsiderohen të ardhurat e realizuara nga marrëveshja e punësimit që ju si individ keni me ndonjë punëdhënës. Të ardhura nga paga përfshihen: Rrogat; Bonuset, provizionet, mëditjet; të ardhurat e fituara nga puna e përkohshme të cilën e kryen punonjësi; të ardhurat nga punësimi i mundshëm, siç është nënshkrimi i një bonusi të rrogës; premitë e sigurimit shëndetësor dhe të jetës që një punëdhënës paguan për punonjësin; falja e huas së punonjësit ose e obligimit të punëdhënësit; pagesa e shpenzimeve personale të punonjësit nga punëdhënësi; përfitimet në gjësende që një punëdhënës ia jep punonjësit që kalon shumën minimale mbi 65€ në muaj, etj.",
+    "value": 0
+  },
+  {
+    "id": 2,
+    "title": "A keni realizuar të ardhura nga Pensioni?",
+    "description": "Sqarim: Të ardhura nga pensioni konsiderohen të ardhurat e realizuara nga pagesa e pensionit, si nga Fondi i Kursimeve Pensionale të Kosovës, si dhe Fondet tjera të licencuara nga Banka Qendrore e Republikës së Kosovës. Po ashtu, këtu përfshihen edhe të ardhurat e realizuara nga Pensioni në ndonjë shtet tjetër kur Legjislacioni, gjegjësisht Marrëveshja ndërshtetërore përcakton që tatimi për ato pensione duhet të paguhet në Kosovë. Këtu nuk duhet të përfshihen pensionet që paguhen nga Qeveria e Republikës së Kosovës.",
+    "value": 0
+  },
+  {
+    "id": 3,
+    "title": "A keni realizuar të ardhura nga Interesi bankar?",
+    "description": "Sqarim: Të ardhura nga interesi bankar konsiderohen të ardhurat e realizuara nga institucioni financiar lidhur me afatizimet e mjeteve, si dhe çdo e ardhur tjetër nga interesi.",
+    "value": 0
+  },
+  {
+    "id": 4,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 5,
+    "title": "A keni realizuar të ardhura nga Fitoret në lotari?",
+    "description": "Sqarim: Të ardhura nga Fitoret në lotari konsiderohen të ardhurat e realizuara nga pjesëmarrja në ndonjë lojë shpërblyese, si dhe lojëra tjera.",
+    "value": 0
+  },
+  {
+    "id": 6,
+    "title": "A keni realizuar të ardhura nga Pasuria e Paprekshme?",
+    "description": "Sqarim: Të ardhura nga Pasuria e Paprekshme konsiderohen të ardhurat e krijuara nga patentat, të drejtat autoriale, licencat, të drejtat ekskluzive dhe pasuritë tjera që përbëhen vetëm nga të drejtat dhe që nuk kanë formë fizike.",
+    "value": 0
+  },
+  {
+    "id": 7,
+    "title": "A keni realizuar të ardhura nga Fitimet kapitale?",
+    "description": "Sqarim: Të ardhura nga Fitimet Kapitale konsiderohen të ardhurat e krijuara nëpërmjet shitjes apo formave të tjera të tjetërsimit të pasurisë kapitale, duke përfshirë pasurinë e prekshme dhe të paprekshme si dhe letrat me vlerë. Shuma e fitimit kapital është dallimi pozitiv ndërmjet çmimit të shitjes së pasurisë dhe vlerës së pasurisë së kapitalit. Çmimi i shitjes së pasurisë kapitale është shuma e çdo paraje të pranuar, shtuar çdo konsideratë tjetër e pranuar për shitje. Kostoja e pasurisë kapitale, është shuma që tatimpaguesi ka paguar për përvetësimin e pasurisë, e rritur për koston e përmirësimeve. Fitim kapital nuk konsiderohet për qëllime tatimore në rast të ndërrimit pa dashje të pronës nëse konsiderata është marrë nga ndërrimi që përbëhet nga prona e karakterit apo natyrës së njëjtë ose nga paratë që janë investuar në pronën e natyrës apo të karakterit të njëjtë brenda periudhës dy (2) vjeçare të zëvendësimit.",
+    "value": 0
+  },
+  {
+    "id": 8,
+    "title": "A keni realizuar të ardhura me burim nga jashtë?",
+    "description": "Sqarim: Të ardhura me burim nga jashtë konsiderohen të ardhurat e krijuara në ndonjë shtet tjetër. Të ardhurat e tilla përfshijnë të ardhura nga punësimi apo të ardhura të pranuara për ndonjë arsye tjetër (p.sh. shërbime të ofruara nga individi në Kosovë për personin në shtetin e huaj). Përjashtim, këtu nuk përfshihen të ardhurat e realizuara nga jashtë për të cilat lëshohet faturë nga personi i cili është i regjistruar si biznes në Kosovë. Po ashtu, këtu nuk përfshihen të ardhurat nga remitencat.",
+    "value": 0
+  },
+  {
+    "id": 9,
+    "title": "A keni realizuar të ardhura nga Dhuratat?",
+    "description": "Sqarim: Të ardhura nga Dhuratat konsiderohen të ardhurat nga dhuratat në para apo gjësende të pranuara nga persona të tjerë, (përjashtuar të ardhurat si dhurata nga bashkëshorti(ja), prindi, fëmija biologjik apo i adoptuar), nëse dhuratat e tilla tejkalojnë shumën pesëmijë euro (5.000 €) në një periudhë tatimore, gjegjësisht vit. Nëse dhuratat e pranuara nga personat e tjerë nuk kalojnë vlerën prej 5,000€ në vit, vlerën e tyre e raportoni në pyetjen nr. 17.",
+    "value": 0
+  },
+  {
+    "id": 10,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 11,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 12,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 13,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 14,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 15,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 16,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 17,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 18,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 19,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 20,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 21,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 22,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 23,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 24,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 25,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 26,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 27,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 28,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 29,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 30,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 31,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  },
+  {
+    "id": 32,
+    "title": "A keni realizuar të ardhura nga Interesi në Huatë?",
+    "description": "Sqarim: Të ardhura nga interesi në Huatë konsiderohen të ardhurat e realizuara nga dhënia në formën e huas të mjeteve monetare apo mjeteve të ngjashme me to.",
+    "value": 0
+  }
+]
