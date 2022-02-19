@@ -12,12 +12,34 @@
 
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h3 class="panel-title">{{$ctrl.model.title}}</h3>
+      <h3 class="panel-title flexed-center">
+        <span class="label label-default m-r-10"
+          >{{$ctrl.model.serial_no}}</span
+        >
+        <span>{{$ctrl.model.title}}</span>
+      </h3>
+      <div class="sub-question" ng-if="$ctrl.model.sub_question">
+        {{$ctrl.model.sub_question}}
+      </div>
     </div>
     <div class="panel-body">{{$ctrl.model.description}}</div>
     <div class="confirm-choices">
-      <button type="button" class="btn btn-default active">PO</button>
-      <button type="button" class="btn btn-default active">JO</button>
+      <button
+        type="button"
+        ng-class="{'btn-success':$ctrl.model.yes == true, 'btn-default':$ctrl.model.yes == false }"
+        class="btn btn-default"
+        ng-click="$ctrl.clickedYes()"
+      >
+        PO
+      </button>
+      <button
+        type="button"
+        ng-class="{'btn-danger':$ctrl.model.no == true, 'btn-default':$ctrl.model.no == false }"
+        class="btn btn-default"
+        ng-click="$ctrl.clickedNo()"
+      >
+        JO
+      </button>
     </div>
     <div class="answer-value">
       <div class="yes-answer">
@@ -34,17 +56,27 @@
       <div class="no-answer">Nëse JO – kalo në pyetjen e radhës.</div>
     </div>
     <div class="qa-panel-actions">
-      <button class="btn btn-primary" ng-click="$ctrl.previous()">
+      <button
+        class="btn btn-primary"
+        ng-disabled="$ctrl.index<=0"
+        ng-click="$ctrl.previous()"
+      >
         Kthehu
       </button>
-      <button class="btn btn-primary" ng-click="$ctrl.next()">Vazhdo</button>
+      <button
+        class="btn btn-primary"
+        ng-disabled="$ctrl.list.length-1==$ctrl.index"
+        ng-click="$ctrl.next()"
+      >
+        Vazhdo
+      </button>
     </div>
   </div>
 </div>
 
 <style>
   .qa-di-wizard-wrapper {
-    width: 50%;
+    width: 100%;
     border: 1px solid #ccc;
     padding: 20px;
   }
@@ -74,14 +106,26 @@
   }
   .confirm-choices {
     padding: 10px 0 10px 40px;
-    width: 35%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
+  }
+  .flexed-center {
+    display: flex;
+    align-items: center;
   }
   .panel-body {
     height: 150px;
     overflow: auto;
     text-align: justify;
     margin-bottom: 20px;
+    font-style: italic;
+  }
+  .m-r-10 {
+    margin-right: 10px;
+  }
+  .sub-question {
+    font-style: italic;
+    margin-top: 5px;
   }
 </style>
