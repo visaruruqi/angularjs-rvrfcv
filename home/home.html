@@ -24,7 +24,12 @@
         <span class="yes-label"
           >Nëse PO – Vendos vlerën e të ardhurave në kutinë:</span
         >
-        <input type="text" class="form-control" style="width: 30%" />
+        <input
+          ng-model="$ctrl.model.value"
+          type="text"
+          class="form-control"
+          style="width: 30%"
+        />
       </div>
       <div class="no-answer">Nëse JO – kalo në pyetjen e radhës.</div>
     </div>
@@ -72,5 +77,11 @@
     width: 35%;
     display: flex;
     justify-content: space-between;
+  }
+  .panel-body {
+    height: 150px;
+    overflow: auto;
+    text-align: justify;
+    margin-bottom: 20px;
   }
 </style>
