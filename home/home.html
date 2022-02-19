@@ -16,10 +16,14 @@
         <span class="label label-default m-r-10"
           >{{$ctrl.model.serial_no}}</span
         >
-        <span>{{$ctrl.model.title}}</span>
+        <span ng-class="{'make-normal-weight':$ctrl.model.sub_question}"
+          >{{$ctrl.model.title}}</span
+        >
       </h3>
-      <div class="sub-question" ng-if="$ctrl.model.sub_question">
-        {{$ctrl.model.sub_question}}
+      <div class="sub-question make-bold" ng-if="$ctrl.model.sub_question">
+        <span class="label label-primary m-r-10"
+          >{{$ctrl.model.sub_serial_no}}</span
+        ><span>{{$ctrl.model.sub_question}}</span>
       </div>
     </div>
     <div class="panel-body">{{$ctrl.model.description}}</div>
@@ -41,13 +45,51 @@
         JO
       </button>
     </div>
-    <div class="answer-value">
+
+    <!-- if there is a sub-question in the model we display two input boxes -->
+
+    <div ng-if="$ctrl.model.sub_question" class="answer-value">
+      <div>
+        <div class="yes-label">Nëse PO:</div>
+        <div>
+          <div class="flexed-center flexed-space-between">
+            <span>[a]-Vendos vlerën e shitjes së pasurisë në kutinë:</span>
+            <input
+              ng-model="$ctrl.model.a_val"
+              ng-disabled="$ctrl.model.no || $ctrl.model.yes == undefined"
+              type="text"
+              class="form-control"
+              style="width: 30%"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Sqarim ne anen e djatht"
+            />
+          </div>
+          <div class="flexed-center flexed-space-between m-t-5">
+            <span>[b]-Vendos vlerën e kostos së pasurisë në kutinë: </span>
+            <input
+              ng-model="$ctrl.model.b_val"
+              ng-disabled="$ctrl.model.no || $ctrl.model.yes == undefined"
+              type="text"
+              class="form-control"
+              style="width: 30%"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="no-answer m-t-10">Nëse JO – kalo në pyetjen e radhës.</div>
+    </div>
+
+    <!-- else it is a normal input -->
+
+    <div ng-if="!$ctrl.model.sub_question" class="answer-value">
       <div class="yes-answer">
         <span class="yes-label"
           >Nëse PO – Vendos vlerën e të ardhurave në kutinë:</span
         >
         <input
           ng-model="$ctrl.model.value"
+          ng-disabled="$ctrl.model.no || $ctrl.model.yes == undefined"
           type="text"
           class="form-control"
           style="width: 30%"
@@ -75,11 +117,21 @@
 </div>
 
 <style>
-  .qa-di-wizard-wrapper {
-    width: 100%;
-    border: 1px solid #ccc;
-    padding: 20px;
+  @media (min-width: 1024px) {
+    .qa-di-wizard-wrapper {
+      width: 50%;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
   }
+  @media (max-width: 500px) {
+    .qa-di-wizard-wrapper {
+      width: 100%;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+  }
+
   .title {
     display: flex;
   }
@@ -114,6 +166,9 @@
     display: flex;
     align-items: center;
   }
+  .flexed-space-between {
+    justify-content: space-between;
+  }
   .panel-body {
     height: 150px;
     overflow: auto;
@@ -124,8 +179,20 @@
   .m-r-10 {
     margin-right: 10px;
   }
-  .sub-question {
-    font-style: italic;
+  .m-t-5 {
     margin-top: 5px;
+  }
+  .m-t-10 {
+    margin-top: 10px;
+  }
+  .sub-question {
+    /*font-style: italic;*/
+    margin-top: 5px;
+  }
+  .make-bold {
+    font-weight: bold;
+  }
+  .make-normal-weight {
+    font-weight: normal;
   }
 </style>

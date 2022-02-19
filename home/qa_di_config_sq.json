@@ -43,27 +43,30 @@
   },
   {
     "id": 7,
-    "serial_no": "7.1",
+    "serial_no": "7",
     "title": "A keni realizuar të ardhura nga Fitimet kapitale?",
     "description": "Sqarim: Të ardhura nga Fitimet Kapitale konsiderohen të ardhurat e krijuara nëpërmjet shitjes apo formave të tjera të tjetërsimit të pasurisë kapitale, duke përfshirë pasurinë e prekshme dhe të paprekshme si dhe letrat me vlerë. Shuma e fitimit kapital është dallimi pozitiv ndërmjet çmimit të shitjes së pasurisë dhe vlerës së pasurisë së kapitalit. Çmimi i shitjes së pasurisë kapitale është shuma e çdo paraje të pranuar, shtuar çdo konsideratë tjetër e pranuar për shitje. Kostoja e pasurisë kapitale, është shuma që tatimpaguesi ka paguar për përvetësimin e pasurisë, e rritur për koston e përmirësimeve. Fitim kapital nuk konsiderohet për qëllime tatimore në rast të ndërrimit pa dashje të pronës nëse konsiderata është marrë nga ndërrimi që përbëhet nga prona e karakterit apo natyrës së njëjtë ose nga paratë që janë investuar në pronën e natyrës apo të karakterit të njëjtë brenda periudhës dy (2) vjeçare të zëvendësimit.",
     "value": 0,
-    "sub_question": "A keni realizuar të ardhura nga shitja e Pasurisë së Paluajtshme (Tokë, Shtëpi, Banesë, Pronë tjetër)?"
+    "sub_question": "A keni realizuar të ardhura nga shitja e Pasurisë së Paluajtshme (Tokë, Shtëpi, Banesë, Pronë tjetër)?",
+    "sub_serial_no": "7.1"
   },
   {
     "id": 8,
-    "serial_no": "7.2",
+    "serial_no": "7",
     "title": "A keni realizuar të ardhura nga Fitimet kapitale?",
     "description": "Sqarim: Të ardhura nga Fitimet Kapitale konsiderohen të ardhurat e krijuara nëpërmjet shitjes apo formave të tjera të tjetërsimit të pasurisë kapitale, duke përfshirë pasurinë e prekshme dhe të paprekshme si dhe letrat me vlerë. Shuma e fitimit kapital është dallimi pozitiv ndërmjet çmimit të shitjes së pasurisë dhe vlerës së pasurisë së kapitalit. Çmimi i shitjes së pasurisë kapitale është shuma e çdo paraje të pranuar, shtuar çdo konsideratë tjetër e pranuar për shitje. Kostoja e pasurisë kapitale, është shuma që tatimpaguesi ka paguar për përvetësimin e pasurisë, e rritur për koston e përmirësimeve. Fitim kapital nuk konsiderohet për qëllime tatimore në rast të ndërrimit pa dashje të pronës nëse konsiderata është marrë nga ndërrimi që përbëhet nga prona e karakterit apo natyrës së njëjtë ose nga paratë që janë investuar në pronën e natyrës apo të karakterit të njëjtë brenda periudhës dy (2) vjeçare të zëvendësimit.",
     "value": 0,
-    "sub_question": "A keni realizuar të ardhura nga shitja e Pasurisë së Luajtshme (Vetura, mjete tjera)?"
+    "sub_question": "A keni realizuar të ardhura nga shitja e Pasurisë së Luajtshme (Vetura, mjete tjera)?",
+    "sub_serial_no": "7.2"
   },
   {
     "id": 9,
-    "serial_no": "7.3",
+    "serial_no": "7",
     "title": "A keni realizuar të ardhura nga Fitimet kapitale?",
     "description": "Sqarim: Të ardhura nga Fitimet Kapitale konsiderohen të ardhurat e krijuara nëpërmjet shitjes apo formave të tjera të tjetërsimit të pasurisë kapitale, duke përfshirë pasurinë e prekshme dhe të paprekshme si dhe letrat me vlerë. Shuma e fitimit kapital është dallimi pozitiv ndërmjet çmimit të shitjes së pasurisë dhe vlerës së pasurisë së kapitalit. Çmimi i shitjes së pasurisë kapitale është shuma e çdo paraje të pranuar, shtuar çdo konsideratë tjetër e pranuar për shitje. Kostoja e pasurisë kapitale, është shuma që tatimpaguesi ka paguar për përvetësimin e pasurisë, e rritur për koston e përmirësimeve. Fitim kapital nuk konsiderohet për qëllime tatimore në rast të ndërrimit pa dashje të pronës nëse konsiderata është marrë nga ndërrimi që përbëhet nga prona e karakterit apo natyrës së njëjtë ose nga paratë që janë investuar në pronën e natyrës apo të karakterit të njëjtë brenda periudhës dy (2) vjeçare të zëvendësimit.",
     "value": 0,
-    "sub_question": "A keni realizuar të ardhura nga shitja e Pasurive tjera (Letra me vlerë, kriptovaluta, etj.)?"
+    "sub_question": "A keni realizuar të ardhura nga shitja e Pasurive tjera (Letra me vlerë, kriptovaluta, etj.)?",
+    "sub_serial_no": "7.3"
   },
   {
     "id": 10,
@@ -91,6 +94,153 @@
     "serial_no": "11",
     "title": "A keni realizuar të ardhura nga qiratë?",
     "description": "Sqarim: Të ardhura bruto nga qiratë konsiderohen të ardhurat e krijuara nga dhënia me qira e pasurisë së paluajtshme sikurse janë ndërtesat, toka ose apartamentet, si dhe të ardhurat e krijuara nga dhënia me qira e pajisjeve, automjeteve të transportit dhe llojeve tjera të pasurisë. Këtu nuk duhet të përfshihen të ardhurat e qirasë të krijuara nga personat e angazhuar në veprimtari ekonomike të dhënies me qira të pasurisë së luajtshme apo të paluajtshme për klientët, pasi që për realizimin e atyre të ardhurave personi duhet të ketë biznes të regjistruar me veprimtarinë si aktivitetet ekonomik – dhënia me qira.",
+    "value": 0
+  },
+  {
+    "id": 14,
+    "serial_no": "12",
+    "title": "A keni realizuar të ardhura nga Dividenda?",
+    "description": "Sqarim: Të ardhura bruto nga Dividenta konsiderohet pjesa e fitimit që merr secili aksionar i një ndërmarrjeje sipas kapitalit që ka derdhur. Pra, një divident është një shpërndarje e fitimeve nga një korporatë për aksionarët e saj. Kur një korporatë fiton një fitim ose tepricë, ajo është në gjendje të paguajë një pjesë të fitimit si divident për aksionarët. Çdo shumë që nuk shpërndahet merret për t'u ri-investuar në biznes.",
+    "value": 0
+  },
+  {
+    "id": 15,
+    "serial_no": "13",
+    "title": "A keni realizuar të ardhura nga kompensimet për dëmtimin ose shkatërrimin e pronës?",
+    "description": "Sqarim: Të ardhura nga kompensimet për dëmtimin ose shkatërrimin e pronës konsiderohen kompensimet për dëmtimin ose shkatërrimin e pronës, të cilat personi mund ti përfitoj si nga Qeveria e Republikës së Kosovës e po ashtu edhe nga ndonjë person tjetër. Dëmtime apo shkatërrime të pronës, në rastin konkret nënkuptohen dëmtimet apo shkatërrimet nga fatkeqësitë e ndryshme, siç mund të jenë: tërmeti, vërshimet, etj.",
+    "value": 0
+  },
+  {
+    "id": 16,
+    "serial_no": "14",
+    "title": "A keni realizuar të ardhura nga polisat e sigurimit të jetës që paguhen si rezultat i vdekjes së personit të siguruar?",
+    "description": "Sqarim: Të ardhura nga polisat e sigurimit të jetës që paguhen si rezultat i vdekjes së personit të siguruar konsiderohen të ardhurat që përfituesi (trashëgimtari) i përfiton nga kompania siguruese ku ishte i siguruar personi i cili tashmë ka vdekur.",
+    "value": 0
+  },
+  {
+    "id": 17,
+    "serial_no": "15",
+    "title": "A keni realizuar të ardhura nga pagat si person me nevoja të veçanta?",
+    "description": "Sqarim: Të ardhura nga pagat si person me nevoja të veçanta konsiderohen të ardhurat kur i punësuari posedon dëshminë nga autoriteti kompetent, e cila vërteton statusin e tij se është person me nevoja të veçanta. Pa poseduar dëshminë, të ardhurat e tilla nuk konsiderohen të ardhura që duhet të raportohen këtu, por duhet të jenë të përfshira në të ardhurat bruto nga pagat, gjegjësisht në pyetjen nr. 1.",
+    "value": 0
+  },
+  {
+    "id": 18,
+    "serial_no": "16",
+    "title": "A keni realizuar të ardhura nga pagesat e pensioneve dhe asistencat sociale të paguara nga Qeveria e Kosovës?",
+    "description": "Sqarim: Të ardhura nga pagesat e pensioneve dhe asistencat sociale të paguara nga Qeveria e Republikës së Kosovës konsiderohen të ardhurat të cilat paguhen nga Ministria përkatëse për personat në skemat sociale.",
+    "value": 0
+  },
+  {
+    "id": 19,
+    "serial_no": "17",
+    "title": "A keni realizuar të ardhura nga trashëgimia, si dhe dhuratat deri në 5,000 euro?",
+    "description": "Sqarim: Të ardhura nga trashëgimia, si dhe dhuratat deri në 5,000 euro konsiderohen asetet e marra apo vlera e aseteve të marra si rezultat i trashëgimisë. Kur trashëgimtari është bashkëshorti(ja), fëmija biologjik apo i adoptuar, ose prindi i të vdekurit, vlera e tërësishme duhet të përfshihet këtu. Po ashtu, këtu duhet të përfshihet e vlera e përfituar kur trashëgimtari është personi tjetër nga ata të përmendur më lartë, mirëpo, vlera e trashëgimisë nuk e kalon vlerën prej pesëmijë (5.000€). Nëse vlera e trashëgimisë kur trashëgimtari është person tjetër, tejkalon vlerën prej 5,000€, atëherë vlera prej 5,000€ raportohet këtu, ndërsa vlera mbi 5,000€ duhet të raportohet në pyetjen nr. 9.",
+    "value": 0
+  },
+  {
+    "id": 20,
+    "serial_no": "18",
+    "title": "A keni realizuar të ardhura për shpronësimet nga shteti për interesa publike?",
+    "description": "Sqarim: Të ardhura për shpronësimet nga shteti për interesa publike konsiderohen të ardhurat e përfituara, përfshirë të ardhurat në formë monetare ose në natyrë nga personi fizik jo afarist për shpronësimet që i bëhen nga shteti për interesa publike. ",
+    "value": 0
+  },
+  {
+    "id": 21,
+    "serial_no": "19",
+    "title": "A keni realizuar të ardhura si dëmshpërblime nëpërmjet vendimeve të formës së prerë të gjykatave?",
+    "description": "Sqarim: Të ardhura si dëmshpërblime nëpërmjet vendimeve të formës së prerë të gjykatave konsiderohen të ardhurat e përfituara si dëmshpërblim, mirëpo, këto të ardhura duhet të jenë të përcaktuara me Vendim nga Gjykata kompetente. Të ardhurat e tilla nuk përfshijnë kryegjënë, mirëpo, përfshinë vetëm pjesën si dëmshpërblim, si kamata, interes, etj.",
+    "value": 0
+  },
+  {
+    "id": 22,
+    "serial_no": "20",
+    "title": "A keni realizuar të ardhura në formë shpërblimi nga institucionet shtetërore për arritje në shkencë, sport dhe kulturë?",
+    "description": "Sqarim: Të ardhura si në formë shpërblimi nga institucionet shtetërore për arritje në shkencë, sport dhe kulturë konsiderohen të ardhurat e përfituara të cilat i paguan shteti për një arritje të personit, si në shkencë, sport, kulturë, etj.",
+    "value": 0
+  },
+  {
+    "id": 23,
+    "serial_no": "21",
+    "title": "A keni realizuar të ardhura si rezultat i kompensimit financiar si ish i dënuar politik?",
+    "description": "Sqarim: Të ardhura si si rezultat i kompensimit financiar si ish i dënuar politik konsiderohen të ardhurat e përfituara të cilat i paguan shteti për një person i cili ishte i dënuar për qëllime politike.",
+    "value": 0
+  },
+  {
+    "id": 24,
+    "serial_no": "22",
+    "title": "A keni realizuar të ardhura nga grantet, subvencionet dhe donacionet?",
+    "description": "Sqarim: Të ardhura nga grantet, subvencionet dhe donacionet konsiderohen të ardhurat e përfituara të cilat janë shpenzuar në harmoni me rregullat dhe kushtet e përfitimit. Nëse të ardhurat e tilla nuk janë shpenzuar në harmoni me kushtet e përfitimit, ato duhet të jenë të përfshira në pyetjen nr. 10.",
+    "value": 0
+  },
+  {
+    "id": 25,
+    "serial_no": "23",
+    "title": "A keni realizuar të ardhura tjera të cilat nuk janë përfshirë në pyetjet nga 12 deri 22?",
+    "description": "Sqarim: Të ardhura tjera konsiderohen të ardhurat që individi i ka pranuar gjatë periudhës tatimore (vitit kalendarik), të cilat nuk janë të përfshira në pyetjet nga 12 deri në 22. Të ardhura tjera, mund të jenë p.sh. kthimi i parave ose kompensimi për trajtimin mjekësor dhe shpenzimet, duke përfshirë edhe hospitalizimin dhe mjekimin, pos rrogave të paguara gjatë periudhës së mungesës nga puna për shkak të sëmundjes ose lëndimit; shpenzimet edukative/arsimore të paguara nga një punëdhënës në interes të një të punësuari me kusht që shpenzimet e tilla të jenë paguar drejtpërdrejtë në institucionin edukativo/arsimor që është i pranuar në përputhje me legjislacionin në fuqi të Kosovës, dhe me kusht që më tutje i punësuari të mbetet në punësim tek punëdhënësi për së paku njëzet e katër (24) muaj pas përfundimit të edukimit/arsimit për të cilën shpenzimet janë paguar nga punëdhënësi; bursat e marra nga një individ për të marrë pjesë në një institucion për mësim të lartë, shkollë zanati, apo shkollë profesionale, përderisa bursa është paguar drejtpërdrejtë në institucion; shpenzimet për ndjekje të programit të trajnimit të paguara nga një punëdhënës për një të punësuar për të marrë pjesë në programet zyrtare të trajnimit për të marrë shkathtësitë që lidhen me punën; shpenzimet për jetesë gjatë pjesëmarrjes në një program zyrtar trajnimi, etj.",
+    "value": 0
+  },
+  {
+    "id": 26,
+    "serial_no": "24",
+    "title": "A keni paguar Kontribute Pensionale apo a ju janë ndalur në burim Kontributet Pensionale nga Punëdhënësi?",
+    "description": "Sqarim: Këtu duhet të përfshihen Kontributet Pensionale të punësuarit, të cilat janë paguar apo janë ndalur në burim nga punëdhënësi. Këtu nuk mund të vendosni ndonjë vlerë nëse nuk jeni përgjigjur me PO në pyetjen nr. 1 – A keni realizuar të ardhura nga pagat? Nëse përgjigja në pyetjen nr. 1 është PO, atëherë vlera që do të mund ta vendosni këtu nuk mund të jetë më e lartë se sa 15% e vlerës së vendosur në pyetjen nr. 1. Nëse përgjigja për këtë pyetje është PO, atëherë për vlerën e vendosur në rubrikën e mëposhtme duhet të posedoni dëshmi, të cilën duhet ta bashkëngjitni sipas kërkesës.",
+    "value": 0
+  },
+  {
+    "id": 27,
+    "serial_no": "25",
+    "title": "A ju është mbajtur tatimi në burim në Paga nga punëdhënësi juaj?",
+    "description": "Sqarim: Këtu duhet të përfshihen Tatimi i mbajtur në burim në Paga, i cili është mbajtur në burim nga punëdhënësi me rastin e pagesës së pagës. Këtu nuk mund të vendosni ndonjë vlerë nëse nuk jeni përgjigjur me PO në pyetjen nr. 1 – A keni realizuar të ardhura nga pagat? Nëse përgjigja në pyetjen nr. 1 është PO, atëherë vlera që do të mund ta vendosni këtu nuk mund të jetë më e lartë se sa vlera e dëshmuar me Certifikatën e Tatimit të Mbajtur në Burim të lëshuar nga punëdhënësi juaj. Nëse përgjigja për këtë pyetje është PO, atëherë për vlerën e vendosur në rubrikën e mëposhtme duhet të posedoni dëshmi  - Certifikatën e Tatimit të Mbajtur në Burim, të cilën duhet ta bashkëngjitni sipas kërkesës.",
+    "value": 0
+  },
+  {
+    "id": 28,
+    "serial_no": "26",
+    "title": "A ju është mbajtur tatimi në burim në Pagesat e Pensionit?",
+    "description": "Sqarim: Këtu duhet të përfshihen Tatimi i mbajtur në burim në Pagesat e Pensionit (Tatimi ne paga), i cili është mbajtur në burim nga paguesi i pensionit. Këtu nuk mund të vendosni ndonjë vlerë nëse nuk jeni përgjigjur me PO në pyetjen nr. 2 – A keni realizuar të ardhura nga pensionet? Nëse përgjigja në pyetjen nr. 2 është PO, atëherë vlera që do të mund ta vendosni këtu nuk mund të jetë më e lartë se sa vlera e dëshmuar me Certifikatën e Tatimit të Mbajtur në Burim të lëshuar nga paguesi i pensionit. Nëse përgjigja për këtë pyetje është PO, atëherë për vlerën e vendosur në rubrikën e mëposhtme duhet të posedoni dëshmi  - Certifikatën e Tatimit të Mbajtur në Burim, të cilën duhet ta bashkëngjitni sipas kërkesës.",
+    "value": 0
+  },
+  {
+    "id": 29,
+    "serial_no": "27",
+    "title": "A ju është mbajtur tatimi në burim mbi interesin bankar?",
+    "description": "Sqarim: Këtu duhet të përfshihen Tatimi i mbajtur në burim në pagesat e interesit, i cili është mbajtur në burim nga paguesi i interesit. Këtu nuk mund të vendosni ndonjë vlerë nëse nuk jeni përgjigjur me PO në pyetjen nr. 3 – A keni realizuar të ardhura nga interesi bankar? Nëse përgjigja në pyetjen nr. 3 është PO, atëherë vlera që do të mund ta vendosni këtu nuk mund të jetë më e lartë se sa vlera e dëshmuar me Certifikatën e Tatimit të Mbajtur në Burim të lëshuar nga paguesi i interesit. Nëse përgjigja për këtë pyetje është PO, atëherë për vlerën e vendosur në rubrikën e mëposhtme duhet të posedoni dëshmi  - Certifikatën e Tatimit të Mbajtur në Burim, të cilën duhet ta bashkëngjitni sipas kërkesës.",
+    "value": 0
+  },
+  {
+    "id": 30,
+    "serial_no": "28",
+    "title": "A ju është mbajtur tatimi në burim mbi interesin nga huatë?",
+    "description": "Sqarim: Këtu duhet të përfshihen Tatimi i mbajtur në burim në pagesat e interesit nga huatë, i cili është mbajtur në burim nga paguesi i interesit nga huatë. Këtu nuk mund të vendosni ndonjë vlerë nëse nuk jeni përgjigjur me PO në pyetjen nr. 4 – A keni realizuar të ardhura nga interesi mbi huatë? Nëse përgjigja në pyetjen nr. 4 është PO, atëherë vlera që do të mund ta vendosni këtu nuk mund të jetë më e lartë se sa vlera e dëshmuar me Certifikatën e Tatimit të Mbajtur në Burim të lëshuar nga paguesi i interesit nga huatë. Nëse përgjigja për këtë pyetje është PO, atëherë për vlerën e vendosur në rubrikën e mëposhtme duhet të posedoni dëshmi  - Certifikatën e Tatimit të Mbajtur në Burim, të cilën duhet ta bashkëngjitni sipas kërkesës.",
+    "value": 0
+  },
+  {
+    "id": 31,
+    "serial_no": "29",
+    "title": "A ju është mbajtur tatimi në burim mbi fitoret në lotari?",
+    "description": "Sqarim: Këtu duhet të përfshihen Tatimi i mbajtur në burim në pagesat/mallrat e pranuara nga fitoret në lotari, i cili është mbajtur në burim nga paguesi. Këtu nuk mund të vendosni ndonjë vlerë nëse nuk jeni përgjigjur me PO në pyetjen nr. 5 – A keni realizuar të ardhura nga fitoret në lotari? Nëse përgjigja në pyetjen nr. 5 është PO, atëherë vlera që do të mund ta vendosni këtu nuk mund të jetë më e lartë se sa vlera e dëshmuar me Certifikatën e Tatimit të Mbajtur në Burim të lëshuar nga paguesi i fitoreve në lotari. Nëse përgjigja për këtë pyetje është PO, atëherë për vlerën e vendosur në rubrikën e mëposhtme duhet të posedoni dëshmi  - Certifikatën e Tatimit të Mbajtur në Burim, të cilën duhet ta bashkëngjitni sipas kërkesës.",
+    "value": 0
+  },
+  {
+    "id": 32,
+    "serial_no": "30",
+    "title": "A ju është mbajtur tatimi në burim për pasuritë e paprekshme?",
+    "description": "Sqarim: Këtu duhet të përfshihen Tatimi i mbajtur në burim në pagesat për shfrytëzimin e pasurisë së paprekshme siç janë: patentat, të drejtat autoriale, licencat, të drejtat ekskluzive dhe pasuritë tjera që përbëhen vetëm nga të drejtat dhe që nuk kanë formë fizike, i cili është mbajtur në burim nga paguesi. Këtu nuk mund të vendosni ndonjë vlerë nëse nuk jeni përgjigjur me PO në pyetjen nr. 6 – A keni realizuar të ardhura nga pasuria e paprekshme? Nëse përgjigja në pyetjen nr. 6 është PO, atëherë vlera që do të mund ta vendosni këtu nuk mund të jetë më e lartë se sa vlera e dëshmuar me Certifikatën e Tatimit të Mbajtur në Burim të lëshuar nga paguesi i të ardhurave për shfrytëzimin e pasurisë së paprekshme. Nëse përgjigja për këtë pyetje është PO, atëherë për vlerën e vendosur në rubrikën e mëposhtme duhet të posedoni dëshmi  - Certifikatën e Tatimit të Mbajtur në Burim, të cilën duhet ta bashkëngjitni sipas kërkesës.",
+    "value": 0
+  },
+  {
+    "id": 33,
+    "serial_no": "31",
+    "title": "A ju është mbajtur tatimi në burim për të ardhurat e realizuara jashtë vendit?",
+    "description": "Sqarim: Këtu duhet të përfshihet Tatimi i paguar në shtetin tjetër për të ardhurat e realizuara në atë shtet. Nëse tatimi i paguar në shtetin tjetër është në vlerë më të lartë se 10% e të ardhurave të tatueshme të realizuara jashtë vendit, atëherë në këtë rubrikë nuk mund të zbritni vlerën më të lartë se 10%. Nëse tatimi i paguar në shtetin tjetër është në vlerë më të ulët se 10% e të ardhurave të tatueshme të realizuara jashtë vendit, atëherë në këtë rubrikë duhet të vendosni vlerën e paguar të tatimit jashtë vendit. Këtu nuk mund të vendosni ndonjë vlerë nëse nuk jeni përgjigjur me PO në pyetjen nr. 7 – A keni realizuar të ardhura me burim nga jashtë? Nëse përgjigja në pyetjen nr. 7 është PO, atëherë vlera që do të mund ta vendosni këtu nuk mund të jetë më e lartë se sa 10% e vlerës së deklaruar në pyetjen nr. 7. Nëse përgjigja për këtë pyetje është PO, atëherë për vlerën e vendosur në rubrikën e mëposhtme duhet të posedoni dëshmi  lidhur me pagesën e tatimit në shtetin ku edhe janë realizuar të ardhurat.",
+    "value": 0
+  },
+  {
+    "id": 34,
+    "serial_no": "32",
+    "title": "A ju është mbajtur tatimi në burim për të ardhurat nga qiratë?",
+    "description": "Sqarim: Këtu duhet të përfshihet Tatimi i mbajtur në burim në pagesat e qirasë, i cili është mbajtur në burim nga paguesi i qirasë. Këtu nuk mund të vendosni ndonjë vlerë nëse nuk jeni përgjigjur me PO në pyetjen nr. 11 – A keni realizuar të ardhura nga qiratë? Nëse përgjigja në pyetjen nr. 11 është PO, atëherë vlera që do të mund ta vendosni këtu nuk mund të jetë më e lartë se sa vlera e dëshmuar me Certifikatën e Tatimit të Mbajtur në Burim të lëshuar nga paguesi i qirasë. Nëse përgjigja për këtë pyetje është PO, atëherë për vlerën e vendosur në rubrikën e mëposhtme duhet të posedoni dëshmi  - Certifikatën e Tatimit të Mbajtur në Burim, të cilën duhet ta bashkëngjitni sipas kërkesës.",
     "value": 0
   }
 ]
