@@ -33,10 +33,28 @@ class HomeCtrl {
 
     if (this.list.length > this.index + 1) {
       if (this.model.sub_question) {
-        if (this.model.a_val <= 0 && this.model.yes) {
+        if (
+          (this.model.a_val <= 0 || this.isEmpty(this.model.a_val)) &&
+          this.model.yes
+        ) {
           return;
         }
-      } else if (this.model.value <= 0 && this.model.yes) {
+
+        if (
+          this.model.yes &&
+          this.model.a_val > 0 &&
+          (this.model.b_val < 0 || this.isEmpty(this.model.b_val))
+        ) {
+          return;
+        }
+
+        if (this.model.b_val > this.model.a_val) {
+          return;
+        }
+      } else if (
+        (this.model.value <= 0 || this.isEmpty(this.model.value)) &&
+        this.model.yes
+      ) {
         return;
       }
 
@@ -59,9 +77,24 @@ class HomeCtrl {
     }
   }
 
-  loadConfig() {
-    console.log('qaConfig', qaConfig);
-    this.list = qaConfig;
+  isEmpty(data) {
+    if (typeof data === 'object') {
+      if (JSON.stringify(data) === '{}' || JSON.stringify(data) === '[]') {
+        return true;
+      } else if (!data) {
+        return true;
+      }
+      return false;
+    } else if (typeof data === 'string') {
+      if (!data.trim()) {
+        return true;
+      }
+      return false;
+    } else if (typeof data === 'undefined') {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
 

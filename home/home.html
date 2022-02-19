@@ -52,11 +52,13 @@
         <div>
           <div class="yes-label">Nëse PO:</div>
           <div>
-            <div class="flexed-center flexed-space-between">
-              <span>[a]-Vendos vlerën e shitjes së pasurisë në kutinë:</span>
+            <div class="flexed-space-between">
+              <div style="width: 60%">
+                [a]-Vendos vlerën e shitjes së pasurisë në kutinë:
+              </div>
 
               <div
-                style="width: auto"
+                style="width: 40%"
                 class="form-group margin-0"
                 ng-class="{'has-error': ((!$ctrl.model.yes && !$ctrl.model.no) || ($ctrl.model.yes && $ctrl.model.a_val <= 0)) && $ctrl.submitted}"
               >
@@ -64,6 +66,7 @@
                   ng-model="$ctrl.model.a_val"
                   ng-disabled="$ctrl.model.no || $ctrl.model.yes == undefined"
                   type="text"
+                  numbers-only
                   class="form-control"
                   style="width: auto"
                   data-toggle="tooltip"
@@ -71,32 +74,57 @@
                   title="Sqarim ne anen e djatht"
                 />
                 <div ng-if="$ctrl.submitted">
-                  <p
-                    ng-if="$ctrl.model.yes && $ctrl.model.a_val <= 0"
+                  <span
+                    ng-if="$ctrl.model.yes && ($ctrl.model.a_val <= 0 || $ctrl.isEmpty($ctrl.model.a_val))"
                     class="help-block"
                   >
                     Ju keni zgjedhur opcionin "PO" që do të thotë ju keni
                     realizuar të ardhura atëher vendos vlerën e të ardhurave në
                     kuti
-                  </p>
-                  <p
+                  </span>
+                  <span
                     ng-if="!$ctrl.model.yes && !$ctrl.model.no"
                     class="help-block"
                   >
                     Ju nuk keni zgjedhur opcionin
-                  </p>
+                  </span>
                 </div>
               </div>
             </div>
-            <div class="flexed-center flexed-space-between m-t-5">
-              <span>[b]-Vendos vlerën e kostos së pasurisë në kutinë: </span>
-              <input
-                ng-model="$ctrl.model.b_val"
-                ng-disabled="$ctrl.model.no || $ctrl.model.yes == undefined"
-                type="text"
-                class="form-control"
-                style="width: 30%"
-              />
+            <div class="flexed-space-between m-t-5">
+              <div style="width: 60%">
+                [b]-Vendos vlerën e kostos së pasurisë në kutinë:
+              </div>
+              <div
+                style="width: 40%"
+                class="form-group margin-0"
+                ng-class="{'has-error': ((!$ctrl.model.yes && !$ctrl.model.no) || ($ctrl.model.yes && $ctrl.model.a_val > 0 && ($ctrl.model.b_val<0 || $ctrl.isEmpty($ctrl.model.b_val))) || $ctrl.model.b_val > $ctrl.model.a_val ) && $ctrl.submitted}"
+              >
+                <input
+                  ng-model="$ctrl.model.b_val"
+                  ng-disabled="$ctrl.model.no || $ctrl.model.yes == undefined"
+                  type="text"
+                  numbers-only
+                  class="form-control"
+                  style="width: auto"
+                />
+                <div ng-if="$ctrl.submitted">
+                  <span
+                    ng-if="$ctrl.model.yes && $ctrl.model.a_val > 0 && ($ctrl.model.b_val<0 || $ctrl.isEmpty($ctrl.model.b_val))"
+                    class="help-block"
+                  >
+                    Vlera e kostos nuk mundet me qen negative ose e zbrazet,
+                    mundet me qenë zero apo më e madhe
+                  </span>
+                  <span
+                    ng-if="$ctrl.model.yes && $ctrl.model.a_val > 0 && $ctrl.model.b_val > $ctrl.model.a_val"
+                    class="help-block"
+                  >
+                    Vlera e kostos nuk mundet me qen më e madhe sesa vlera e të
+                    hyrave
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -113,7 +141,7 @@
           <div
             style="width: 40%"
             class="form-group margin-0"
-            ng-class="{'has-error': ((!$ctrl.model.yes && !$ctrl.model.no) || ($ctrl.model.yes && $ctrl.model.value <= 0)) && $ctrl.submitted}"
+            ng-class="{'has-error': ((!$ctrl.model.yes && !$ctrl.model.no) || ($ctrl.model.yes && ($ctrl.model.value <= 0 || $ctrl.isEmpty($ctrl.model.value)))) && $ctrl.submitted}"
           >
             <input
               ng-model="$ctrl.model.value"
@@ -126,7 +154,7 @@
             />
             <div ng-if="$ctrl.submitted">
               <p
-                ng-if="$ctrl.model.yes && $ctrl.model.value <= 0"
+                ng-if="$ctrl.model.yes && ($ctrl.model.value <= 0 || $ctrl.isEmpty($ctrl.model.value))"
                 class="help-block"
               >
                 Ju keni zgjedhur opcionin "PO" që do të thotë ju keni realizuar
@@ -210,6 +238,7 @@
     align-items: center;
   }
   .flexed-space-between {
+    display: flex;
     justify-content: space-between;
   }
   .panel-body {
