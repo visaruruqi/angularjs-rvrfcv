@@ -38,7 +38,9 @@ class HomeCtrl {
         }
       } else if (this.model.value <= 0 && this.model.yes) {
         return;
-      } else if (!this.model.yes && !this.model.no) {
+      }
+
+      if (!this.model.yes && !this.model.no) {
         return;
       }
 

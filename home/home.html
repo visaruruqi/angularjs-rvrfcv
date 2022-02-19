@@ -54,16 +54,39 @@
           <div>
             <div class="flexed-center flexed-space-between">
               <span>[a]-Vendos vlerën e shitjes së pasurisë në kutinë:</span>
-              <input
-                ng-model="$ctrl.model.a_val"
-                ng-disabled="$ctrl.model.no || $ctrl.model.yes == undefined"
-                type="text"
-                class="form-control"
-                style="width: 30%"
-                data-toggle="tooltip"
-                data-placement="right"
-                title="Sqarim ne anen e djatht"
-              />
+
+              <div
+                style="width: auto"
+                class="form-group margin-0"
+                ng-class="{'has-error': ((!$ctrl.model.yes && !$ctrl.model.no) || ($ctrl.model.yes && $ctrl.model.a_val <= 0)) && $ctrl.submitted}"
+              >
+                <input
+                  ng-model="$ctrl.model.a_val"
+                  ng-disabled="$ctrl.model.no || $ctrl.model.yes == undefined"
+                  type="text"
+                  class="form-control"
+                  style="width: auto"
+                  data-toggle="tooltip"
+                  data-placement="right"
+                  title="Sqarim ne anen e djatht"
+                />
+                <div ng-if="$ctrl.submitted">
+                  <p
+                    ng-if="$ctrl.model.yes && $ctrl.model.a_val <= 0"
+                    class="help-block"
+                  >
+                    Ju keni zgjedhur opcionin "PO" që do të thotë ju keni
+                    realizuar të ardhura atëher vendos vlerën e të ardhurave në
+                    kuti
+                  </p>
+                  <p
+                    ng-if="!$ctrl.model.yes && !$ctrl.model.no"
+                    class="help-block"
+                  >
+                    Ju nuk keni zgjedhur opcionin
+                  </p>
+                </div>
+              </div>
             </div>
             <div class="flexed-center flexed-space-between m-t-5">
               <span>[b]-Vendos vlerën e kostos së pasurisë në kutinë: </span>

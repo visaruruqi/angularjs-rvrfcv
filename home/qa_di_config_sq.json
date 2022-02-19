@@ -48,7 +48,9 @@
     "description": "Sqarim: Të ardhura nga Fitimet Kapitale konsiderohen të ardhurat e krijuara nëpërmjet shitjes apo formave të tjera të tjetërsimit të pasurisë kapitale, duke përfshirë pasurinë e prekshme dhe të paprekshme si dhe letrat me vlerë. Shuma e fitimit kapital është dallimi pozitiv ndërmjet çmimit të shitjes së pasurisë dhe vlerës së pasurisë së kapitalit. Çmimi i shitjes së pasurisë kapitale është shuma e çdo paraje të pranuar, shtuar çdo konsideratë tjetër e pranuar për shitje. Kostoja e pasurisë kapitale, është shuma që tatimpaguesi ka paguar për përvetësimin e pasurisë, e rritur për koston e përmirësimeve. Fitim kapital nuk konsiderohet për qëllime tatimore në rast të ndërrimit pa dashje të pronës nëse konsiderata është marrë nga ndërrimi që përbëhet nga prona e karakterit apo natyrës së njëjtë ose nga paratë që janë investuar në pronën e natyrës apo të karakterit të njëjtë brenda periudhës dy (2) vjeçare të zëvendësimit.",
     "value": 0,
     "sub_question": "A keni realizuar të ardhura nga shitja e Pasurisë së Paluajtshme (Tokë, Shtëpi, Banesë, Pronë tjetër)?",
-    "sub_serial_no": "7.1"
+    "sub_serial_no": "7.1",
+    "a_val": 0,
+    "b_val": 0
   },
   {
     "id": 8,
@@ -57,7 +59,9 @@
     "description": "Sqarim: Të ardhura nga Fitimet Kapitale konsiderohen të ardhurat e krijuara nëpërmjet shitjes apo formave të tjera të tjetërsimit të pasurisë kapitale, duke përfshirë pasurinë e prekshme dhe të paprekshme si dhe letrat me vlerë. Shuma e fitimit kapital është dallimi pozitiv ndërmjet çmimit të shitjes së pasurisë dhe vlerës së pasurisë së kapitalit. Çmimi i shitjes së pasurisë kapitale është shuma e çdo paraje të pranuar, shtuar çdo konsideratë tjetër e pranuar për shitje. Kostoja e pasurisë kapitale, është shuma që tatimpaguesi ka paguar për përvetësimin e pasurisë, e rritur për koston e përmirësimeve. Fitim kapital nuk konsiderohet për qëllime tatimore në rast të ndërrimit pa dashje të pronës nëse konsiderata është marrë nga ndërrimi që përbëhet nga prona e karakterit apo natyrës së njëjtë ose nga paratë që janë investuar në pronën e natyrës apo të karakterit të njëjtë brenda periudhës dy (2) vjeçare të zëvendësimit.",
     "value": 0,
     "sub_question": "A keni realizuar të ardhura nga shitja e Pasurisë së Luajtshme (Vetura, mjete tjera)?",
-    "sub_serial_no": "7.2"
+    "sub_serial_no": "7.2",
+    "a_val": 0,
+    "b_val": 0
   },
   {
     "id": 9,
@@ -66,7 +70,9 @@
     "description": "Sqarim: Të ardhura nga Fitimet Kapitale konsiderohen të ardhurat e krijuara nëpërmjet shitjes apo formave të tjera të tjetërsimit të pasurisë kapitale, duke përfshirë pasurinë e prekshme dhe të paprekshme si dhe letrat me vlerë. Shuma e fitimit kapital është dallimi pozitiv ndërmjet çmimit të shitjes së pasurisë dhe vlerës së pasurisë së kapitalit. Çmimi i shitjes së pasurisë kapitale është shuma e çdo paraje të pranuar, shtuar çdo konsideratë tjetër e pranuar për shitje. Kostoja e pasurisë kapitale, është shuma që tatimpaguesi ka paguar për përvetësimin e pasurisë, e rritur për koston e përmirësimeve. Fitim kapital nuk konsiderohet për qëllime tatimore në rast të ndërrimit pa dashje të pronës nëse konsiderata është marrë nga ndërrimi që përbëhet nga prona e karakterit apo natyrës së njëjtë ose nga paratë që janë investuar në pronën e natyrës apo të karakterit të njëjtë brenda periudhës dy (2) vjeçare të zëvendësimit.",
     "value": 0,
     "sub_question": "A keni realizuar të ardhura nga shitja e Pasurive tjera (Letra me vlerë, kriptovaluta, etj.)?",
-    "sub_serial_no": "7.3"
+    "sub_serial_no": "7.3",
+    "a_val": 0,
+    "b_val": 0
   },
   {
     "id": 10,
